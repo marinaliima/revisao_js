@@ -1,8 +1,8 @@
 //8. Campeonato
 
-let vitorias = Number(prompt('Digite o número de vitórias:'));
-let empates = Number(prompt('Digite o número de empates:'));
-let derrotas = Number(prompt('Digite o número de derrotas:'));
+let vitorias = Number(prompt("Digite o número de vitórias:"));
+let empates = Number(prompt("Digite o número de empates:"));
+let derrotas = Number(prompt("Digite o número de derrotas:"));
 
 let partidasJogadas = vitorias + empates + derrotas;
 let pontuacaoObtida = vitorias * 2 + empates * 1;
